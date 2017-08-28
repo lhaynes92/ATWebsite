@@ -1,0 +1,39 @@
+
+/*----------------------------------Side Border Eraser------------------------------------------*/
+
+
+header, head, body{
+	/* erases the border on the side of the website*/
+ 	margin-top: 0px;
+ 	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px
+
+}
+
+
+/*----------------------------------Home Page Nav Bar------------------------------------------*/
+
+
+.headerbar {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+.headerbar a {
+	font-weight: bold;
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 1.5% 2%;
+    text-decoration: none;}
+    
+.headerbar a:hover, .product:hover .productbtn {
+    background-color: lightgray;
+    color: black;
+}
